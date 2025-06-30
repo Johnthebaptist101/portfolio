@@ -56,3 +56,139 @@
     color: black;
     font-weight: 700;
 }
+.hero {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 400px;
+}
+.sub-info {
+    font-size: 20px;
+    color: #808080;
+}
+.info {
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.projects {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.projects-2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    margin-top: 100px;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    opacity: 1; /* Default opacity */
+    transition: opacity 0.6s ease; /* Smooth transition */
+}
+img:hover {
+    opacity: 0.7; /* Reduced opacity on hover */
+}
+.img-1 {
+    height: 500px;
+    width: 900px;
+    border: 1px solid black;
+}
+.img-2 {
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+}
+.project-info {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #808080;
+    cursor: pointer;
+
+}
+.info-title {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 22px;
+    transition: color 0.6s ease;
+}
+.project-info a {
+    text-decoration: none;
+}
+.info-title:hover {
+    color: #5d5d5d;
+}
+.contact {
+    background-color: #f4f4f4;
+    height: 400px;
+    margin: 0 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 400px;
+}
+.contact-title {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.contact-sub {
+    color: #808080;
+    font-size: 20px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+.contact-details {
+    display: flex;
+}
+.email-title {
+    font-size: 20px;
+    margin-top: 50px;
+}
+.email-contact {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 100px;
+}
+.socials {
+    display: flex;
+    gap: 60px;
+}
+.socials a {
+    text-decoration: none;
+}
+.socials p {
+    transition: color 0.6s ease; /* Smooth transition for hover effect */
+    color: #808080;
+}
+.socials p:hover {
+    color: black;
+}
