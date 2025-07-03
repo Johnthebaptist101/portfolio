@@ -105,12 +105,12 @@ img:hover {
 .img-1 {
     height: 500px;
     width: 900px;
-    border: 1px solid black;
+    border: 1px none black;
 }
 .img-2 {
     height: 500px;
     width: 600px;
-    border: 1px solid black;
+    border: 1px none black;
 }
 .project-info {
     height: 150px;

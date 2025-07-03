@@ -79,7 +79,8 @@
 .about-img {
     height: 400px;
     width: 700px;
-    border: 1px solid black;
+    border: 1px none black;
+    object-fit: cover;
 }
 .contact {
     background-color: #f4f4f4;

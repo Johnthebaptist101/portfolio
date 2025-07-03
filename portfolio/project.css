@@ -98,11 +98,12 @@
 }
 
 .img {
-    border: 1px solid black;
+    border: 1px none black;
     width: calc(100% - 160px); /* Full width minus 80px margin on each side */
-    height: 750px;
+    height: 850px;
     margin: 0 80px; /* 80px margin on left and right */
     display: block; /* Ensure images behave as block elements */
+    object-fit: cover;
 }
 .p-img-1 {
     margin-bottom: 100px;
