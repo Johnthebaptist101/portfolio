@@ -1,0 +1,195 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "avenir-lt-pro", sans-serif;
+    font-style: normal;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    font-size: 0.7rem;
+}
+.title {
+    border-bottom: 3px solid black;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    transition: border-bottom-color 0.1s ease; /* Transition for fading out the border */
+}
+.title::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: black;
+    transition: width 0.6s ease; /* Transition for the growing line */
+}
+.title:hover {
+    border-bottom-color: transparent; /* Makes the original line disappear */
+}
+.title:hover::before {
+    width: 100%; /* Grows the new line from left to right */
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #808080; /* Grey color for default state */
+    transition: color 0.6s ease; /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+.nav-links a.active {
+    color: black;
+    font-weight: 700;
+}
+.hero {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+.sub-info {
+    font-size: 10px;
+    color: #808080;
+}
+.info {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.projects {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 80px;
+}
+.projects-2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 80px;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+}
+.img {
+    opacity: 1; /* Default opacity */
+    transition: opacity 0.6s ease; /* Smooth transition */
+}
+img:hover {
+    opacity: 0.7; /* Reduced opacity on hover */
+}
+.img-1 {
+    height: 180px;
+    width: 300px;
+    border: 1px none black;
+    object-fit: cover;
+}
+.img-2 {
+    height: 180px;
+    width: 200px;
+    border: 1px none black;
+    object-fit: cover;
+}
+.project-info {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 6px;
+    color: #808080;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+.info-title {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 10px;
+    transition: color 0.6s ease;
+}
+.project-info a {
+    text-decoration: none;
+}
+.info-title:hover {
+    color: #5d5d5d;
+}
+.contact {
+    background-color: #f4f4f4;
+    height: 400px;
+    margin: 0 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 400px;
+}
+.contact-title {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.contact-sub {
+    color: #808080;
+    font-size: 20px;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+.contact-details {
+    display: flex;
+}
+.email-title {
+    font-size: 20px;
+    margin-top: 50px;
+}
+.email-contact {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 100px;
+}
+.socials {
+    display: flex;
+    gap: 60px;
+}
+.socials a {
+    text-decoration: none;
+}
+.socials p {
+    transition: color 0.6s ease; /* Smooth transition for hover effect */
+    color: #808080;
+}
+.socials p:hover {
+    color: black;
+}

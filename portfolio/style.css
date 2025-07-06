@@ -106,11 +106,13 @@ img:hover {
     height: 500px;
     width: 900px;
     border: 1px none black;
+    object-fit: cover;
 }
 .img-2 {
     height: 500px;
     width: 600px;
     border: 1px none black;
+    object-fit: cover;
 }
 .project-info {
     height: 150px;

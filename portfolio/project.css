@@ -58,10 +58,9 @@
 }
 .hero-center {
     display: flex;
-    justify-content: center;
 }
 .hero {
-    height: 700px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +68,7 @@
     margin-bottom: 100px;
 }
 .project-title {
-    margin-bottom: 150px;
+    padding-left: 300px;
 }
 .project-name {
     font-size: 60px;
